@@ -3,3 +3,57 @@
     padding: 10px;
     border-top: 1px solid black;
 }
+
+.avatar-square {
+    height: 95%;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+  }
+
+  .big-container {
+
+    height: 100vh;
+    width: 90vw;
+    background: #EBF4F3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    background-color: white;
+    margin: 20px;
+}
+
+.description{
+    padding: 20px;
+    text-align: center;
+}
+
+.container-page {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-card {
+    display: flex;
+}
+
+.title {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
