@@ -1,6 +1,12 @@
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Condensed"
   }
+
+
 
 .container {
     margin: 10px;
@@ -16,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .big-container {
-
+    margin-top: 10px;
     height: 100vh;
     width: 90vw;
     background: #EBF4F3;
@@ -61,16 +67,20 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
-
+.logo {
+    height: 50px;
+}
 .nav-bar {
     background-color: rgb(25, 33, 41);
-    border-radius: 20px;
-    padding: 20px;
+    padding: 5px;
+    position: static;
 }
 
 .nav-bar-ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
   }
 
 .homepage-image-section {
@@ -94,7 +104,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-bar-style {
     color: white;
+    text-decoration: none;
+ 
 }
+
+.nav-bar-style:hover {
+    font-weight: bold;
+    
+    padding-bottom: 8px;
+
+
+}
+
+.purple-hover:hover {
+    color:  #426BB5;
+
+}
+
+.green-hover:hover {
+    color: #EBF4F3
+}
+
+.nav-bar-part-two {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 40px;
+}
+
 
 .quentin-container {
     background: #426BB5;
@@ -108,4 +145,9 @@ h1, h2, h3, h4, h5, h6 {
 .text-description {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.image-paris {
+    height: 400px;
+    margin-top: 30px;
 }
