@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-bar {
     background-color: rgb(25, 33, 41);
     padding: 5px;
-    position: static;
+
 }
 
 .nav-bar-ul {
